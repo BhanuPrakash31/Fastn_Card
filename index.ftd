@@ -1,40 +1,57 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #e55
+align-content: center
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- card: GAMING CLUB
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+fsdfhdhgdhdfhdgh
 
--- ds.h3: 🚀 Fast Track 
+-- end: ftd.column
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- component card:
+caption title: Default title
+body description: Default description
 
--- ds.h3: 🌟 Whats next?
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #ffa62b
+border-width.px: 3
+border-radius.px: 50
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+;;-- ftd.column:
+;;width.fixed.px: 350
+;;height.fixed.px: 150
+;;background.solid: orange
+;;border-width.px: 3
 
--- ds.h3: 👀 Want to learn more?
+;;-- end: ftd.column
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.image:
+src: https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=600
+height.fixed.px: 330
+width.fixed.px: 350
+border-radius.px: 50
+padding.px: 30
+/padding.top.px: 20
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.column:
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
 
--- ds.h2: Learn fastn and become a pro?
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
--- end: ds.page
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: card
